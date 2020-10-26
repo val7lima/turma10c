@@ -4,3 +4,5 @@ este repositorio contem uma workspace preparada na IDE ecplipse 2020
 
 
 comentario feito no git local.
+
+segunda alteracao no git remoto.
