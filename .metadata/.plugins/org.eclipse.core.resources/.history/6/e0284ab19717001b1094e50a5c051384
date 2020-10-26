@@ -1,0 +1,11 @@
+package br.com.colecoes.bears;
+
+public class Cargo {
+	
+	private String nome;
+	private String nivel;
+	private float salario;
+	
+	
+
+}

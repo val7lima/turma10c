@@ -1,0 +1,22 @@
+package br.com.unixyz.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.unixyz.modelo.Curso;
+
+public class ImplementacaoCurso {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Curso cursov = new Curso(
+				Integer.parseInt(JOptionPane.showInputDialog("ID")),
+				JOptionPane.showInputDialog("descricao"),
+				Float.parseFloat(JOptionPane.showInputDialog("valor")),
+				Integer.parseInt(JOptionPane.showInputDialog("Carga Horaria:"))
+				);
+		
+		System.out.println("getall");
+	}
+
+}

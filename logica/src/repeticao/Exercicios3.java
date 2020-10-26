@@ -1,0 +1,56 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicios3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*
+* 2º) Monte um programa que solicite a idade e o nome das pessoas. Ao terminar, 
+* (quando o usuário responder "SIM", que ele quer terminar) o programa deverá exibir:
+* a pessoa mais velha (nome e idade),
+* a pessoa mais nova (nome e idade),
+* a quantidade de pessoas maiores de idade e
+* a média entre as idades que foram digitadas.
+*/
+		
+		int contadorVelho = 0;
+		int idadeVelho = 0;
+		int idadeNovo = 0;
+		int contadorNovo = 0;
+		int contadorMaior = 0;
+		double mediaIdade = 0;
+		String nome ="";
+
+		
+		
+		do {
+
+
+			nome = JOptionPane.showInputDialog("Digite o nome").toUpperCase();
+			int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade"));
+			
+			
+			if(idade>idadeVelho) {
+				idadeVelho=idade;
+				contadorVelho++;
+				System.out.println("mais velho");
+			 
+			}else	if(idade<idadeNovo) {
+				contadorNovo++;
+				idadeNovo=idade;
+				System.out.println("mais novo");
+	
+			}
+			
+		} while(nome!="SIM");
+		
+		System.out.println("pessoa mais velha (nome e idade): " + contadorVelho);
+		System.out.println("pessoa mais nova (nome e idade): " + contadorNovo);
+		System.out.println("quantidade de pessoas maiores de idade: " + contadorMaior);
+		System.out.println("média entre as idades que foram digitadas: " + mediaIdade);
+		
+	}
+
+}

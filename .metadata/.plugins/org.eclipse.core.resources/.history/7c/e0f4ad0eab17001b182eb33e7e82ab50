@@ -1,0 +1,44 @@
+package br.com.excesoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+
+//Excecoes: nao sao controladas pelo programador.
+//Existem dois tipos: ERROS
+// A-) Checked: o Java verifica antes da compilacao
+// B-) Unchecked: só ocorre após a compilação
+// o try - catch depois que conclui o sistema		
+		
+		
+		try {
+			
+			
+		int numero = Integer.parseInt("7");
+		System.out.println("Resultado: " + (numero *10));
+
+		
+		
+		
+		}catch(Exception e) { // excesao erro para nao mostrar o codigo
+			System.out.println("OPS erro!!");
+			e.printStackTrace();
+			
+			
+			
+		}finally { // executado de qlqr forma... msg para usuario ok
+			
+			System.out.println("Até logo!!!");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

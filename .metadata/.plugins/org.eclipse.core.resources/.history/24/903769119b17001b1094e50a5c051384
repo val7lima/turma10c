@@ -1,0 +1,53 @@
+package br.com.colecoes.implementacao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.colecoes.bears.Cargo;
+
+public class TesteListObjetos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float total=0;
+		
+		List<Cargo> lista = new ArrayList<Cargo>();
+		
+		lista.add(new Cargo("DBA", "JR", 8000));
+		lista.add(new Cargo("PO", "PL", 20000));
+		lista.add(new Cargo("ESTAGIRIO", "SR", 5000));
+	
+		// pegar um indice espefico
+		//System.out.println(lista.get(1).getSalario());
+		
+		
+		//getAll
+		//System.out.println(lista);
+		
+		//1 exiba o total de todos os salarios
+		//2 exibam somente o cargo com salario maior que 7000
+		
+		for (Cargo objeto : lista) {
+			
+			total = total + objeto.getSalario();
+			
+			
+			if(objeto.getSalario()>7000) {
+				System.out.println("os Maiores salarios: " + objeto.getAll());
+				
+			}
+			
+			System.out.println("Nome: ==> " + objeto.getNome());
+
+			System.out.println("Salario: : ==> " + objeto.getSalario());
+			
+			
+		}
+		
+		System.out.println("Total Salario: " + total);
+
+		
+	}
+
+}

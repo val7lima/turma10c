@@ -1,0 +1,13 @@
+package br.com.unixyz.modelo;
+
+public class Formacao {
+
+	
+	
+	private String descricao;
+	private int duracao;
+	private float mensalidade;
+	
+	
+	
+}

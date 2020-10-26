@@ -1,0 +1,60 @@
+package br.com.unixyz.implementacao;
+
+import br.com.unixyz.modelo.Bacharelado;
+import br.com.unixyz.modelo.Formacao;
+import br.com.unixyz.modelo.Medio;
+import br.com.unixyz.modelo.Tecnologo;
+import br.com.unixyz.util.Magica;
+
+public class ImplementarFormacao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Formacao f = new Formacao();
+		
+		 char resposta = Magica.s("Digite M - Medio  ou B - Bacharelado ou T - Tecnologo ");
+		 
+		 
+		 
+		 if(resposta==1) {
+			 
+			 System.out.println("Media");
+			 f = new Medio(
+					 Magica.s("Digite Tipo"),
+					 20,
+					 200,
+					 "M"
+					 );
+			 
+			 
+		 } else if(resposta==2) {
+			 
+			 System.out.println("Bacharelado");
+			 f = new Bacharelado(
+					 Magica.s("Digite Faculdade"),
+					 20,
+					 200,
+					 20,
+					 "TCC"
+					 );
+			 
+			 
+		 } else if(resposta==3) {
+			 
+			 
+			 System.out.println("Tecnologo");
+			 f = new Tecnologo(
+					 Magica.s("Digite Curso"),
+					 20,
+					 200,
+					 true
+					 );
+			 
+		 }
+		
+		 System.out.println(f.getAll());
+
+	}
+
+}

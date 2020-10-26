@@ -1,0 +1,32 @@
+package br.com.ecommerce.modelo;
+
+import br.com.ecommerce.beans.Produto;
+import br.com.unixyz.util.Magica;
+
+public class ImplementacaoProduto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Produto p = new Produto();
+		
+		p.setQtde(Magica.i("Qtde "));
+		p.setValorCompra(Magica.f("Compra "));
+		p.setValorVenda(Magica.f("Venda"));
+		
+		// getDesconto() ajustarValores() totalCompra()
+		
+		
+		
+		System.out.println("Total de compra: " +p.totalCompra());
+		System.out.println("Total de Venda" + p.totalVenda());
+		System.out.println("Venda com 10% " +p.getDesconto());
+		System.out.println("Venda com x% " +p.getDesconto(Magica.f("Porcentagem para desconto")));
+		p.ajustarValores(Magica.f("Valor a ser adicionado "));
+		System.out.println(p.getValorCompra());
+		System.out.println(p.getValorVenda());
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package repeticao;
+
+public class ExemploFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//FOr: utilizamos, normalment para leitura etc.
+		
+		for(int count=1;count<1000;count+=2) {
+			System.out.println(count);
+		}
+		
+
+	}
+
+}

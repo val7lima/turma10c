@@ -1,0 +1,18 @@
+package br.com.ecommerce.modelo;
+
+import br.com.ecommerce.beans.Cliente;
+import br.com.ecommerce.beans.Endereco;
+import br.com.unixyz.util.Magica;
+
+public class ImplementacaoVenda {
+
+
+		
+
+		
+		
+		
+
+	}
+
+}

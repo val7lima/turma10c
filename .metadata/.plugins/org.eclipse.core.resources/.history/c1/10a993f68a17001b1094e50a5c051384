@@ -1,0 +1,24 @@
+package br.com.colecoes.implementacao;
+
+public class TesteList {
+
+	public static void main(String[] args) {
+		//String[] vetor
+		//Collection Framework = > recursos para facilitar trabalhos com dados multivalorados 
+		// hieraquia das collections -List, Queue, Set (Fila e Pilha) Estrutura de Dados
+		
+		
+		int x[] = new int[3];
+		 x[0] = 40;
+		 x[1] = 50;
+		 x[2] = 60;
+
+		
+		
+		
+		
+		
+
+	}
+
+}

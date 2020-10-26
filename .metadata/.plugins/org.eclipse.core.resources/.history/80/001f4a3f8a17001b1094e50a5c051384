@@ -1,0 +1,20 @@
+package br.com.colecoes.implementacao;
+
+public class TesteList {
+
+	public static void main(String[] args) {
+		//String[] vetor
+		//Collection Framework = > recursos para facilitar trabalhos com dados multivalorados 
+		
+		int x[] = new int[3];
+		int x[1] = 40;
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

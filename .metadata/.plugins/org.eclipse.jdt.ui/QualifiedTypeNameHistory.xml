@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="br.com.unixyz.modelo.Curso"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="br.com.unixyz.implementacao.ImplementacaoProfessor"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.beans.Cliente"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.beans.Produto"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.beans.Endereco"/>
+<fullyQualifiedTypeName name="br.com.ecommerce.beans.Venda"/>
+<fullyQualifiedTypeName name="br.com.unixyz.util.Magica"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

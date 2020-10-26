@@ -1,0 +1,33 @@
+package br.com.excesoes.implementacao;
+
+public class TesteExcecao {
+
+	public static void main(String[] args) {
+		
+		try {
+			
+			
+		int numero = Integer.parseInt("7");
+		System.out.println("Resultado: " + (numero *10));
+
+		
+		
+		
+		}catch(Exception e) { // excesao erro para nao mostrar o codigo
+			System.out.println("OPS erro!!");
+			
+		}finally { // executado de qlqr forma... msg para usuario ok
+			
+			System.out.println("Até logo!!!");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

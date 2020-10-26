@@ -1,0 +1,15 @@
+package br.com.colecoes.implementacao;
+
+public class TesteListObjetos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		List<Cargo> Lista = new ArrayList<Cargo>();
+		
+		
+		
+	}
+
+}

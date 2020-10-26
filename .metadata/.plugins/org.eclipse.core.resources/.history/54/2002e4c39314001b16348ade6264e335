@@ -1,0 +1,32 @@
+package br.com.unixyz.implementacao;
+
+import javax.swing.JOptionPane;
+
+import br.com.unixyz.modelo.Professor;
+import br.com.unixyz.util.Magica;
+
+public class ImplementacaoProfessor {
+
+	
+	
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//void nao tem atribuito varialvel, apenas nas calasse classes
+		
+		
+		
+		Professor professor1 = new Professor();
+//		ImplementacaoProfessor ok  = new ImplementacaoProfessor();
+		professor1.setId(Magica.i("ID "));
+		professor1.setNome(Magica.s("Nome "));
+		professor1.setFormacao(Magica.s("Formacao "));
+		
+		
+		
+		
+	
+	}
+
+}

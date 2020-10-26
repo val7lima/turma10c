@@ -1,0 +1,52 @@
+package br.com.unixyz.modelo;
+
+/*
+ * Desing Patterns => DTO (Data Transfer Object
+ *  - Todo atributo (variavel) DEVE ser privado
+ *  - CADA atributo DEVE possuir UM método de input de UM método de output
+ *  - PREENCHER INPUT entrada (SETTER) setter 
+ *  - EXIBIR OUTPUT saida   (GETTER) getter imprimir valor get
+ *  - this.nome referencia nessa classe, isso é parametro e isso é atributo(variavel)
+ *  
+ */
+
+public class Aluno {
+	
+	private int rm;
+	private String nome;
+	private String email;
+	
+	
+	public int getRm() {
+		return rm;
+	}
+	public void setRm(int rm) {
+		this.rm = rm;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+} // fecha chave

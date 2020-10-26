@@ -1,0 +1,14 @@
+package br.com.unixyz.implementacao;
+
+import br.com.unixyz.modelo.Endereco;
+
+public class Implementaendereco {
+
+	public static void main(String[] args) {
+		Endereco endereco1 = new Endereco();
+		
+		
+		
+	}
+
+}
